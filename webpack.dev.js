@@ -4,6 +4,9 @@ const HtmlWebPackPlugin = require("html-webpack-plugin")
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 module.exports = {
+    //devServer: {
+      //  port: 8080
+      //},
     output: {
         libraryTarget: 'var',
         library: 'Client'
